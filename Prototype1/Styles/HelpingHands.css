@@ -1,0 +1,152 @@
+article{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+article>div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+article h2{
+    font-size: 32px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+article h3 {
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-bottom: 0;
+}
+article p{
+    display: flex;
+    width: 80%;
+    font-size: 18px;
+    line-height: 27px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin: none;
+}
+article>div>div:first-of-type{
+    width: 100%;
+    background-color: #000066;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+article>div>div>div>ul{
+    list-style: none;
+    width: 50%;
+}
+article>div>div>div>ul>li{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+article>section{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    gap: 27px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+article>section>a{
+    width: 60%;
+}
+article>section>div{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #c4dffa;
+    height: 250px;
+    a {
+        width: 100%;
+        text-align: center;
+    }
+}
+article>section>div>h3{
+    margin: 0;
+    margin-top: 25px;
+    font-size: 22px;
+}
+article>section>div>p{
+    width: 80%;
+    margin: 0;
+    text-align: center;
+    font-size: 18px;
+}
+article>section>div>a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000066;
+    color: white;
+    height: 40px;
+    text-decoration: none;
+}
+article>section>div>a:hover{
+    opacity: 0.85;
+}
+article>section>a>div{
+    width: 100%;
+    background-color: #c4dffa;
+    transition: 0.5s;
+    img{
+        width: 100%;
+    }
+}
+article>section>a>div:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+article>section>a>div>p {
+    display: none;
+}
+@media (min-width:770px) {
+    article{
+        flex-direction: row;
+        gap:0px;
+        align-items: flex-start;
+    }
+    article>div{
+        width: 55%;
+    }
+    article>section{
+        width: 45%;
+    }
+    article>section>a>div{
+        display: flex;
+        justify-content: center;
+    }
+    article>section>a>div>img{
+        width: 60%;
+        display: flex;
+        align-self: center;
+    }
+    article>div h3, article>div p{
+        text-align: left;
+        width: 80%;
+    }
+    article>div>div>div{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        gap: 27px;
+        margin-left: 10%;
+    }
+    article>div>div>div>ul{
+        padding: 0;
+        margin: 27px 0px;
+        width: 27%;
+    }
+}
