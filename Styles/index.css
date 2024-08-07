@@ -272,6 +272,7 @@ article>div:first-of-type{
         }
     }
     #services>div:nth-child(2){
+        height: auto;
         align-self: center;
     }
     #services>div:nth-child(2)>ul{
