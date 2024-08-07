@@ -46,7 +46,7 @@ article span{
 }
 #book1>img, #book2>img {
     height: 300px;
-    width: 150px;
+    width: 200px;
 }
 article>div:last-of-type{
     border-top: 3px solid #c4dffa;
