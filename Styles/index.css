@@ -271,6 +271,9 @@ article>div:first-of-type{
             margin-bottom: 20px;
         }
     }
+    #services>div:nth-child(2){
+        align-self: center;
+    }
     #services>div:nth-child(2)>ul{
         height: 100%;
         list-style: none;
