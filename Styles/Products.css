@@ -45,7 +45,6 @@ article span{
     line-height: 27px;
 }
 #book1>img, #book2>img {
-    height: 300px;
     width: 200px;
 }
 article>div:last-of-type{
