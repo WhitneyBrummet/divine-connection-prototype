@@ -44,7 +44,7 @@ article span{
     font-size: 18px;
     line-height: 27px;
 }
-article img {
+#book1>img, #book2>img {
     height: 300px;
     width: 100px;
 }
