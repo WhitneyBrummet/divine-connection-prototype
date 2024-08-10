@@ -77,7 +77,7 @@ article>div{
     font-size: 20px;
     margin: 5px;
 }
-#Events>div:first-or-type>ul{
+#Events>div:first-of-type>ul{
     list-style-type: circle;
 }
 #Services>div>div>h4{
